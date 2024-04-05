@@ -134,6 +134,11 @@ img {
 .nav__link:hover {
   text-decoration: underline;
 }
+.nav__close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
 /* Show menu */
 
 
