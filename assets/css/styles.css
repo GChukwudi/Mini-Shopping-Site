@@ -113,7 +113,7 @@ img {
   .nav__menu {
     position: fixed;
     top: 0;
-    right: 0;
+    right: -100%;
     background-color: var(--first-color);
     width: 80%;
     height: 100%;
@@ -130,6 +130,9 @@ img {
 .nav__link {
   color: var(--black-color);
   font-weight: var(--font-semi-bold);
+}
+.nav__link:hover {
+  text-decoration: underline;
 }
 /* Show menu */
 
